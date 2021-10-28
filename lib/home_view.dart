@@ -48,7 +48,8 @@ class _HomeViewState extends State<HomeView> {
         child: InkWell(
           onTap: () {
             playSound(noteNumber);
-
+            //bul jon gana Misal
+            // Egerde noteNumber 3ko barabar bolso gana ishteyt
             if (noteNumber == 3) {
               Navigator.push(context,
                   MaterialPageRoute(builder: (context) => MyHomePage()));
