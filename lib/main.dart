@@ -1,6 +1,6 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
-import 'package:kurs3_sabak4/home_view.dart';
+import 'package:kurs3_sabak4/views/home_view.dart';
 
 void main() {
   runApp(MyApp());
